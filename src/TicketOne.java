@@ -14,12 +14,12 @@ public class TicketOne {
 
     private String checkNumber(int n) {
         String result = String.valueOf(n);
-        if (n%7 == 0) {
+        if (n % 7 == 0) {
             result = SEVEN;
-            if (n%2 == 0) {
+            if (n % 2 == 0) {
                 result = TWO_SEVEN;
             }
-        } else if (n%2 == 0) {
+        } else if (n % 2 == 0) {
             result = TWO;
         }
         return result;
